@@ -34,12 +34,12 @@ const Login = () => {
                                         <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                                    </label>
                               </div>
-                              <div className="form-control mt-6">
+                              <div className="form-control mt-4">
                                    <button className="btn btn-primary">Login</button>
                               </div>
                          </form>
-                         <Link to="/register">
-                              <button className="btn btn-active btn-link">New to Auth Master?</button>
+                         <Link to="/register" className="label-text-alt link link-hover pl-6 pb-4">
+                              New to Auth Master? Please Register
                          </Link>
                     </div>
                </div>

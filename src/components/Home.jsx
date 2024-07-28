@@ -7,7 +7,8 @@ const Home = () => {
 
      return (
           <div>
-               <h2>This is Home {user && <b>{user.displayName}</b> }</h2>
+               <h2>Welcome to my website</h2>
+               <h2>This is Home {user && <b>{user.displayName}</b>}</h2>
           </div>
      );
 };
